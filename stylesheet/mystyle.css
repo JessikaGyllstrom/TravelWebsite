@@ -184,7 +184,6 @@ input {
     justify-content: space-between;
     width: 70%;
     text-align: center;
-
 }
 .choose__boxicons i {
     font-size: 45px;
@@ -202,7 +201,7 @@ input {
     font-weight: 100;
     font-family: 'Aleo', serif;
 }
-.spaincontainerfirst {
+.spaincontainer {
     background-image: url(/images/hotel.png);
     min-height: 800px;
     width: 100%;
@@ -210,18 +209,82 @@ input {
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
-.spaincontainerfirst__textbox {
+.spaincontainer__textbox {
     display: flex;
     width: 60%;
-    background-color: #5c1a1a;
     opacity: 0.8;
     min-height: 300px;
 }
-.spaincontainerfirst__text {
+.spaincontainer__text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
-    background-color: #279141;
+    padding: 10px;
+    background-color: rgba(35, 35, 35, 1)
+}
+.spaincontainerfirst__text p {
+    font-weight: 100;
+}
+.spaincontainer__text h6 {
+    font-size: 14px;
+}
+.spaincontainer__text button {
+    max-width: 130px;
+    border: none;
+}
+.spaincontainerlast {
+    background-image: url(/images/seacliffs.png);
+    min-height: 800px;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.spaincontainerlast__textbox {
+    display: flex;
+    width: 60%;
+    opacity: 0.8;
+    min-height: 300px;
+}
+#spaincontainerlast {
+    justify-content: flex-end;
+}
+.testimonials {
+    background-image: url(/images/manclimbing.png);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    min-height: 730px;
+    align-items: center;
+}
+.testimonials__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    background-color: #333333;
+}
+.testimonials__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    width: 55%;
+}
+.testimonials__text p {
+    margin-top: 15px;
+    font-weight: 100;
+}
+.testimonials__text p span {
+    color: #5474FD;
+    font-size: 30px;
+}
+.testimonials__image img {
+    width: 100%;
+    height: 100%;
 }
