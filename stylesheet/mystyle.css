@@ -1,6 +1,3 @@
-/*font-family: 'Aleo', serif;
-font-family: 'Josefin Sans', sans-serif;*/
-
 * {
     margin: 0;
     padding: 0;
@@ -287,4 +284,43 @@ input {
 .testimonials__image img {
     width: 100%;
     height: 100%;
+}
+footer {
+    min-height: 271px;
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+    min-height: 150px;
+    margin-bottom: 25px;
+}
+.footerbox h2 {
+    font-size: 30px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+.footerbox h6 {
+    font-size: 17px;
+    letter-spacing: 1.6px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.footerbox__icons {
+    margin-top: 15px;
+}
+.footerbox__icons i {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.footerbox .blue {
+    color: #5474FD;
 }
