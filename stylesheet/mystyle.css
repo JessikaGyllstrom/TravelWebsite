@@ -5,3 +5,110 @@ font-family: 'Josefin Sans', sans-serif;*/
     margin: 0;
     padding: 0;
 }
+body {
+    width: 100%;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(/images/mountainspanorma.png);
+    min-height: 870px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 500px;
+}
+.header__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+.header h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    letter-spacing: 4.8px;
+}
+.header h5 {
+    font-weight: 400;
+    letter-spacing: 6.82px;
+    margin-bottom: 20px;
+}
+::placeholder {
+    font-size: 14px;
+    letter-spacing: 2.8px;
+}
+button {
+    background-color: #5474FD;
+    color: #fff;
+}
+.header input {
+    min-width: 653px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+form {
+    max-height: 40px;
+    display:flex;
+    flex-direction: row;
+    padding: 2px;
+    min-height: 40px;
+    margin-top: 30px;
+}
+input {
+    flex-grow:2;
+    border:none;
+}
+.searchbtn {
+    min-width: 150px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1.4px;
+    font-weight: 100px;
+    border: 1px solid #fff;
+}
+.header__scroll {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.nav {
+    display: flex;
+    width: 100%;
+    background-color: #5474FD;
+    justify-content: space-between;
+    min-height: 83px;
+    align-items: center;
+}
+.nav__logo {
+    width: 30%;
+    text-align: center ;
+    letter-spacing: 2.4px;
+    font-size: 20px;
+}
+.nav__links {
+    width: 50%;
+}
+.nav ul {
+    display: inline-flex;
+    list-style: none;
+    text-transform: uppercase ;
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+    margin-left: 15px;
+}
