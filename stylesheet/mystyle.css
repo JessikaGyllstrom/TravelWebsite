@@ -51,6 +51,11 @@ button {
     min-height: 40px;
     padding: 5px;
 }
+button:hover {
+    background-color: #fff;
+    color: #5474FD;
+    padding: 9px;
+}
 .header input {
     min-width: 653px;
     text-align: center;
@@ -111,6 +116,9 @@ input {
     color: #fff;
     font-weight: 200;
     margin-left: 15px;
+}
+.nav a:hover {
+    font-weight: 500;
 }
 .choose {
     background-image: url(/images/city.png);
@@ -323,4 +331,7 @@ footer {
 }
 .footerbox .blue {
     color: #5474FD;
+}
+.footerbox i:hover {
+    transform: scale(1.2);
 }
