@@ -50,6 +50,9 @@ body {
 button {
     background-color: #5474FD;
     color: #fff;
+    text-transform: uppercase;
+    min-height: 40px;
+    padding: 5px;
 }
 .header input {
     min-width: 653px;
@@ -111,4 +114,114 @@ input {
     color: #fff;
     font-weight: 200;
     margin-left: 15px;
+}
+.choose {
+    background-image: url(/images/city.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 800px;
+}
+.choose__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    min-height: 370px;
+}
+.choose__text p {
+    letter-spacing: 1.6px;
+    font-weight: 100;
+}
+.choose__text h2 {
+    font-family: 'Aleo', serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+.choose__text button {
+    border: none;
+    max-width: 130px;
+    font-size: 14px;
+}
+.choose__images {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.choose__images img {
+    min-width: 350px;
+    min-height: 220px;
+}
+.choose__image__last {
+    align-self: center;
+}
+.choose__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+    width: 100%;
+    padding-bottom: 20px;
+    min-height: 300px;
+}
+.choose__box {
+    display: flex;
+    justify-content: center;
+    min-height: 180px;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 60%;
+    background-image: url(/images/Shape\ 1.png);
+    background-size: contain;
+    background-position: center;
+    margin-bottom: -20px;
+}
+.choose__boxicons {
+    display: flex;
+    margin-top: -30px;
+    justify-content: space-between;
+    width: 70%;
+    text-align: center;
+
+}
+.choose__boxicons i {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.fa-circle-check {
+    color: red;
+}
+.fa-thumbs-up, 
+.fa-magnifying-glass {
+    color: #5474FD;
+}
+.choose__boxicons h2 {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Aleo', serif;
+}
+.spaincontainerfirst {
+    background-image: url(/images/hotel.png);
+    min-height: 800px;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.spaincontainerfirst__textbox {
+    display: flex;
+    width: 60%;
+    background-color: #5c1a1a;
+    opacity: 0.8;
+    min-height: 300px;
+}
+.spaincontainerfirst__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    background-color: #279141;
 }
